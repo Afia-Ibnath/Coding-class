@@ -26,3 +26,5 @@ brighter_rgb = cv2.cvtColor(brighter, cv2.COLOR_BGR2RGB)
 plt.imshow(brighter_rgb)
 plt.title("Brighter Image")
 plt.show()
+
+
