@@ -45,3 +45,4 @@ def get_recommendations(title, cosine_sim=cosine_sim):
 movie_title = 'Toy Story'
 print(f"Movies recommended for '{movie_title}':")
 print(get_recommendations(movie_title))
+

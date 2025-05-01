@@ -30,17 +30,17 @@ def edge_detection(image_path):
 
         choice = input(" Enter your choice")
     
-        if choice =="6":
+        if choice =="1":
            red_filter = image.copy()
            red_filter[:, :, 0] = 0
            red_filter[:, :, 1] = 0
            show_image("Red Filter", red_filter)
-        elif choice =="7":
+        elif choice =="2":
            blue_filter = image.copy()
            blue_filter[:, :, 1] = 0
            blue_filter[:, :, 2] = 0
            show_image("Blue Filter", blue_filter)
-        elif choice =="8":
+        elif choice =="3":
            green_filter = image.copy()
            green_filter[:, :, 0] = 0
            green_filter[:, :, 1] = 0
